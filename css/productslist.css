@@ -1,0 +1,801 @@
+.headername .header .head-nav .cate-bd{
+	display:none;
+    z-index: 2;
+}
+.search-nav{
+	height:42px;
+	background: #F6F6F6;
+}
+.search-nav .search-ul{
+    width:1200px;
+	height:42px;
+    margin:0 auto;
+}
+.search-nav .search-ul ul{
+	float:left;
+	line-height: 42px;
+	overflow:hidden;
+}
+.search-nav .search-ul .overdiv{
+	float:left;
+}
+.search-nav .search-ul ul li a{
+    padding-right: 15px;
+    background: url(../images/list/search_icon_newlast.png) no-repeat scroll right 4px transparent;
+    color: #0E6EBF;
+    margin-right: 3px;
+}
+.search-nav .search-ul ul li a span{
+    color: #0E6EBF;
+    padding-left: 6px;
+}
+.search_nav ul li.crumbItem a {
+    padding-right: 0px;
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    margin-top: 8px;
+    background-position: right 9px;
+}
+li.crumbItem a.crumbLink span, li.crumbItem span{
+    padding-right: 15px;
+    background: url(../images/list/icon.png) no-repeat;
+    background-position: right -130px;
+    padding-left: 6px;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 6px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
+    color: #0E6EBF;
+}
+.overdiv{
+    margin-left:4px;
+	height:26px;
+	width:170px;
+	line-height: 26px;
+	border:1px solid #CACACA;
+	margin-top:8px;
+	position: relative;
+}
+.overdiv  .searchText {
+    font-size: 12px;
+    color: #999;
+    font-family: "SimSun";
+    border: 0px none;
+    height: 24px;
+    padding: 0px 26px 0px 4px;
+    width: 140px;
+    outline: medium;
+}
+.overdiv  .searchBtn{
+	background: url(../images/list/searchbut.jpg) no-repeat;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    right: 0;
+    border: 0 none;
+    text-indent: -999px;
+    top: 0;
+    cursor: pointer;
+}
+.navdiv {
+	display: none;
+    position: absolute;
+    z-index: 100;
+    background: #8b8b8b;
+    padding-top: 10px;
+    top: 296px;
+ }
+.navdiv ul {
+    float: left;
+    height: auto;
+}
+.navdiv ul li {
+    padding-left: 25px;
+    margin-bottom: 10px;
+    float:none;
+    width: 104px;
+    background: url(/i/search/131212/icon.png) 8px -5px no-repeat;
+    overflow: hidden;
+}
+.navdiv ul li a {
+    color: #FFF;
+}
+.searchcontainer{
+    background: #F6F6F6
+}
+.searchFactor {
+    width: 1178px;
+    border: 1px solid #dadada;
+    padding: 0 10px;
+    margin:0 auto;
+    background: url(../images/list/search_bg_new.png) #fff repeat-y;
+}
+.searchFactor .factorBlock {
+    border-top: 1px dotted #dadada;
+    overflow: hidden;
+    clear: both;
+}
+.searchFactor .factorBlock dl {
+    width: 1110px;
+}
+.searchFactor .factorBlock dl {
+    width: 1200px;
+    overflow: hidden;
+    float: left;
+    padding: 5px 0;
+}
+.searchFactor .factorBlock dl dt {
+    float: left;
+    width: 90px;
+    padding-left: 10px;
+    color: #666;
+    background: url(../images/list/search_icon.png) left -15px no-repeat;
+    font-weight: 700;
+    margin-top: 7px;
+}
+.searchFactor .factorBlock dl dd {
+	width:1070px;
+    float:right;
+    max-height: 52px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+.searchFactor .factorBlock dl dd ul{
+	width:1000px;
+}
+.searchFactor .factorBlock dl dd.tap .pingyin a{
+	display: inline-block;
+	padding:2px 10px;
+	color:#fff;
+	background: #C01317;
+} 
+
+.searchFactor .factorBlock dl dd ul li {
+    width: 100px;
+    margin-right: 0;
+    height: 19px;
+    line-height: 18px;
+    display: block;
+    float: left;
+    margin: 3px 0;
+    overflow:hidden;
+}
+.searchFactor .level2 dl dd ul li {
+    width: 160px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.searchFactorBox .moreSelect {
+    text-align: center;
+    clear: both;
+    position: relative;
+    top: -1px;
+}
+
+.searchFactor .factorBlock dl dd a:hover{
+    padding:3px 5px;
+    color:#fff;
+    background: #AD0004;
+}
+.searchFactorBox .moreSelect .icon_arrowD{
+	
+    display: inline-block;
+    width: 104px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #dadada;
+    background-color: #fff;
+    border-top: 0;
+    cursor: pointer;
+    background: url(../images/list/search_icon_new.png) no-repeat #fff;
+    background-position: 82px -31px;
+}
+.search-result{
+   background: #F6F6F6;
+   padding-top:10px;
+}
+.search-result .search-node{
+    width:1200px;
+    margin:0 auto;
+    height:34px;
+    border-bottom:1px solid #ad0004;
+    background: #fff;
+
+}
+.search-result .otherFilter{
+    width:1200px;
+    margin:0 auto;
+    background: #fff;
+
+}
+.search-result .search-node a {
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    font: 700 12px/30px '宋体';
+    color: #333;
+    display: block;
+    float: left;
+    text-align: center;
+    border-right:1px solid #dadada;
+    border-top:1px solid #dadada;
+}
+.search-result .search-node a.sel{
+
+    background-color: #ad0004;
+    color: #fff;
+    border-right: 1px solid #ad0004;
+    border-top: 1px solid #ad0004;
+
+}
+.search-result .search-node a.m_sale span,.search-result .search-node a.m_price span{
+  background: url(../images/list/search_icon_new.png) no-repeat;
+  display: inline-block;
+ padding-right:14px;
+
+}
+.search-result .search-node a.m_sale span{
+    background-position: 26px -70px;
+}
+.search-result .search-node a.m_price span{
+    background-position: 14px -91px;
+}
+.search-result  .otherFilter{
+    overflow:hidden;
+    height:34px;
+    border-bottom:1px solid #DADADA;
+
+}
+.search-result  .otherFilter .youhui{
+    float:left;
+    padding-left:10px;
+    width:235px;
+    overflow:hidden;
+    border-right:1px dashed #DADADA;
+}
+.search-result  .otherFilter .youhui em{
+    float:left;
+    font-style: normal;
+    margin-top:8px;
+}
+
+.search-result  .otherFilter .youhui a {
+    padding: 0 5px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #b7b7b7;
+    display: block;
+    float: left;
+    text-align: center;
+    color: #666;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.search-result  .otherFilter .youhui a.sel{
+    border:1px solid #dfa52a;
+    background:#fffff3;
+    margin-left:10px;
+}
+.search-result  .otherFilter .zhekou{
+    float:left;
+    border-right:1px dotted #dadada;
+    padding-left:10px;
+    height:30px;
+    padding-right:0;
+}
+.search-result  .otherFilter .zhekou label{
+    float:left;
+    margin-right:10px;
+    margin-top:8px;
+    height:8px;
+}
+.search-result  .otherFilter .zhekou .servicesForm label input{
+    float:left;
+    margin:2px 5px 0 0;
+    padding:0;
+}
+.search-result  .otherFilter .zhekou .label span{
+    float:left;
+}
+.search-result  .otherFilter .jiage{
+    float:left;
+    border-right:1px dotted #dadada;
+    padding-left:10px;
+    padding-right:0;
+    line-height: 34px;
+}
+.search-result  .otherFilter .jiage span{
+    display: block;
+    float:left;
+}
+.search-result  .otherFilter .jiage input{
+    width:50px;
+    padding:3px 4px;
+    height:14px;
+    float:left;
+    margin-top:8px;
+    border:1px solid #a7a7a7;
+}
+.search-result  .otherFilter .jiage  font{
+    float:left;
+    display: block;
+    margin-left:5px;
+    margin-right: 5px;
+}
+.search-result  .otherFilter .jiage .btn_comfirm{
+    float: left;
+    width: 46px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #a7a7a7;
+    background-color: #fff;
+    margin-left: 5px;
+    margin-top: 8px;
+    text-align: center;
+    cursor: pointer;
+    margin-right:10px;
+}
+.search-result  .otherFilter .dizhi{
+    float:left;
+    margin-left:10px;
+}
+.search-result  .otherFilter .dizhi .dizhiList{
+    position: absolute;
+}
+.search-result  .otherFilter .dizhi .btnArea {
+    padding-right: 13px;
+    cursor: pointer;
+    width: 46px;
+    line-height: 22px;
+    border: 1px solid #a7a7a7;
+    display: block;
+    float: left;
+    color: #666;
+    padding-left: 10px;
+    margin-top: 6px;
+    position: absolute;
+    z-index: 2;
+    background: url(../images/list/search_icon_new.png) no-repeat 51px -31px #fff;
+}
+.otherFilter .dizhi .dizhiList dl {
+    width: 267px;
+    border: 1px solid #a3a3a3;
+    border-top:0px;
+    display: none;
+    position: absolute;
+    top: 29px;
+    left: 0px;
+    background-color: #fff;
+    line-height: 30px;
+    padding: 10px;
+    z-index:2;
+}
+ .otherFilter .dizhi .dizhiList dl dt {
+    border-bottom: 1px dotted #999;
+    overflow: hidden;
+    float:left;
+    clear: both;
+    height: auto;
+    zoom: 1;
+}
+.otherFilter .dizhi .dizhiList dl dt div{
+   float:left;
+   width:70px;
+}
+ .otherFilter .dizhi .dizhiList dl a {
+    border: 1px solid #fff;
+    padding: 2px 10px 4px;
+    background-color: #fff;
+}
+ .otherFilter .dizhi .dizhiList dl  a.checked {
+     border-color:#feda7a;
+     background-color: #fffbe7;
+     color:#c01317;
+}
+.search-result  .otherFilter .page{
+    float:right;
+    margin-right:10px;
+}
+.search-result  .otherFilter .page a {
+    width: 24px;
+    height: 24px;
+    display: block;
+    float: left;
+    margin-top: 5px;
+    background: url(../images/list/search_icon_new.png) no-repeat;
+}
+.search-result  .otherFilter .page a.pre_off {
+    background-position: 0 -220px;
+    cursor: default;
+}
+.search-result  .otherFilter .page span {
+    float: left;
+    margin: 8px 4px 0;
+}
+.search-result   .otherFilter .page a.next_off{
+    background-position: 0 -190px;
+}
+.goodList{
+    width:100%;
+    background: #F6F6F6;
+}
+.goodListBlock{
+    width:1200px;
+    margin:0 auto;
+    position: relative;
+}
+.goodListBlock ul{
+    width:1210px;
+    overflow:hidden;
+}
+.goodListBlock ul li {
+    width: 230px;
+    height: 380px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all ease .15s;
+    -moz-transition: all ease .15s;
+    -ms-transition: all ease .15s;
+    -o-transition: all ease .15s;
+    transition: all ease .15s;
+}
+.goodListBlock ul li div.box {
+    padding: 0 10px;
+    width: 210px;
+}
+.goodListBlock ul li .event {
+    background: url(../images/list/event_bg.png) no-repeat;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font: 700 14px '微软雅黑';
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+}
+.goodListBlock ul li .event em{
+    font-style: normal;
+    font:700 14px "微软雅黑";
+    line-height: 52px;
+    cursor: default;
+}
+.goodListBlock ul .box .img {
+    position: relative;
+    height: 210px;
+    z-index: 1;
+    padding-top: 12px;
+}
+.goodList ul .box p {
+    line-height: 20px;
+}
+.btn-pin {
+    position: absolute;
+    display: none;
+    width: 79px;
+    height: 24px;
+    left: 50%;
+    bottom: 5px;
+    margin-left: -40px;
+    color: #e63432;
+    line-height: 22px;
+    text-indent: 30px;
+    background: url(../images/list/btn_pin.png) no-repeat left top;
+}
+.goodList ul .box .img img {
+    width: 210px;
+    height: 210px;
+}
+
+.goodList ul .box .name {
+    height: 60px;
+    overflow: hidden;
+    margin-top: 6px;
+
+}
+p.name {
+    height: 40px !important;
+}
+.cf06 {
+    color: #f60;
+}
+.goodList ul .box .price_zhekou {
+    height: 30px;
+    margin-top: 5px;
+    position: relative;
+}
+.goodList ul .box .price_zhekou .price {
+    font-family: arial;
+    font-size: 12px;
+    color: #c52e15;
+    font-weight: 700;
+    height: 25px;
+    overflow: hidden;
+    float: left;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.goodList ul .box .price_zhekou .price strong {
+    font-size: 24px;
+    font-family: arial;
+    font-weight: 400;
+}
+del {
+    color: #999;
+    text-decoration: line-through;
+}
+.goodList ul .box .shop_area {
+    border-top: 1px dotted #999;
+    padding: 5px 0;
+    overflow: hidden;
+    height: 16px;
+}
+.goodList ul .box .shop_area a {
+    float: left;
+    line-height: 20px;
+    max-width: 132px;
+}
+.goodList ul .box .shop_area a {
+    float: left;
+    line-height: 20px;
+    max-width: 132px;
+}
+
+.goodList ul .box .shop_area a.area {
+    float: right;
+    width: 25px;
+}
+.goodList ul .box p.name a:hover{
+    color:#CF2025;
+}
+.goodList ul .box .shop_area a:hover{
+    color:#CF2025;
+}
+.goodList ul .box .pingfen {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.goodList ul .box .pingfen a {
+    width: 114px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    overflow: hidden;
+    background-color: #fff;
+    cursor: default;
+    -webkit-transition: height ease .15s;
+    -moz-transition: height ease .15s;
+    -ms-transition: height ease .15s;
+    -o-transition: height ease .15s;
+    transition: height ease .15s;
+    z-index:2;
+}
+.goodList ul .box .pingfen a:hover{
+    overflow:visible;
+}
+.goodList ul .box .pingfen a span.tit {
+    color: #666;
+    background-position: 93px -33px;
+}
+
+.goodList ul .box .pingfen a span {
+    color: #999;
+    display: block;
+    height: 16px;
+    padding: 0 10px;
+}
+.tit{
+    background: url(../images/list/search_icon_new.png) no-repeat
+}
+.page-name{
+     background: #F5F5F5;
+}
+#spage {
+    background-color: #f5f5f5;
+    width:1184px;
+    margin:0 auto;
+    padding: 8px;
+    line-height: 30px;
+    text-align: right;
+    clear: both;
+}
+#spage .pageupon, #spage .pageupoff, #spage .pagedownon, #spage .pagedownoff {
+    background: #fff url(../images/list/search_icon_new.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0 2px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+#spage .pageupoff {
+    background-position: 12px -398px !important;
+}
+#spage span {
+    margin: 0 5px;
+    vertical-align: middle;
+}
+#spage a {
+    height: 30px;
+    display: inline-block;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 2px;
+    overflow: hidden;
+    color: #666;
+    font-family: Simsun;
+    font-size: 14px;
+    font-weight: 700;
+    background-image: none;
+    vertical-align: middle;
+}
+#spage a.slected, #spage a.selected {
+    background-color: #fc7878;
+    color: #fff;
+    border: 1px solid #d82a2e;
+}
+#spage .pagedownon {
+    background-position: 13px -298px;
+}
+#spage .pageswitch input {
+    border: solid 1px #ddd;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 2px;
+    vertical-align: middle;
+    outline: none;
+}
+#spage .pageswitch button {
+    border: solid 1px #ddd;
+    height: 30px;
+    background-color: #fff;
+    width: 50px;
+    vertical-align: middle;
+    color: #666;
+    margin-left: 5px;
+}
+.footer-clone .footer .foot-banner {
+    border: solid 1px #ddd;
+    border-width: 1px 0;
+    padding: 17px 0;
+    background-position:0px -130px;
+}
+.footer-clone .layout {
+    width: 1200px;
+    min-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-clone .footer  .footer-helper{
+    width:1180px;
+    padding: 10px 0 20px 0px !important;
+    text-align: left;
+    overflow: hidden;
+    width: 100%;
+}
+.footer-clone .footer .foot-helper ul{
+    width: 1200px;
+    margin:0 auto;
+}
+.footer-clone .footer .foot-helper ul li{
+    width: 120px;
+    padding: 5px 70px 0 0;
+    float: left;
+}
+.right-small-bar{
+    width:40px;
+    position: fixed;
+    top:40%;
+    right: 0;
+    bottom: 0;
+    height:120px;
+    background:#AC0001;
+    z-index: 1000;
+}  
+.right-bar {
+    display: none;
+    width:40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background:url(../images/bar2017.jpg);
+    z-index: 1000;
+}
+.top-bar{
+    width:40px;
+    height:30%;
+    padding-top:40px;
+}
+.right-bar .center-bar{
+    width:40px;
+}
+.right-bar p,.right-small-bar p{
+    height:24px;
+    position: relative;
+    z-index: 2;
+    display: block;
+    padding: 18px 8px;
+    width: 24px;
+}
+.center-bar .cart b{
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    width: 24px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-family: Arial;
+    background: url(../images/ico_tabs_cart.png);
+    background-position: left -60px;
+    color:#333;
+}
+.right-bar  i,.right-small-bar i{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/ico_tabs.png)no-repeat;
+ }
+.center-bar .cart i{
+    background-position: left -156px;  
+    margin-top:6px;
+}
+.center-bar .zixun i{
+    left: -40px;
+    background-position: 0px -228px;
+}
+.center-bar .person i{
+   background-position: 0px -132px; 
+}
+.center-bar .zichan i{
+    background-position: 0px -182px; 
+}
+.center-bar .zuji i{
+    background-position: 0px -204px; 
+}
+.right-bar .bar-tab-tips,.right-small-bar .bar-tab-tips{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 40px;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    color: #C52D15;
+    background: #fff;
+
+}
+.top-bar .Category i{
+    background-position: 0px -84px;
+}
+.top-bar  .erweima i{
+    background-position: 0px -106px;
+}
+.tip-bar .erweima-tips{
+
+}

@@ -1,0 +1,218 @@
+.header{
+	width:980px;
+	margin:0 auto;
+	background: #F7F7F7;
+}
+.header .header-top{
+	padding: 0px;
+}
+.logo{
+	height:89px;
+	padding: 5px 156px;
+	background: #Fff;
+	border-bottom:4px solid #A71F24;
+}
+.logo .logoicon{
+	width:75px;
+	height:75px;
+	background: url(../images/logo.png) no-repeat left bottom;
+	margin-top:7px;
+}
+.logo .logoicon a{
+	text-indent: -10000px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    height: 75px;
+    width:75px;
+}
+.register{
+	background: #f7f7f7;
+    font-family: Microsoft YaHei;
+}
+.register-box{
+	width: 960px;
+    height: 500px;
+    background: #fff;
+    padding: 30px 15px 0 15px;
+    margin: 0 auto;
+}
+.reg-title{
+	border-bottom: 1px solid #f0f0f0;
+    background: url(../images/register/title_tip.jpg) no-repeat center right;
+}
+.reg-title .title-text{
+	width: 138px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #f0f0f0;
+    border-bottom: 0px;
+    margin-left: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.reg-main{
+	    padding-left: 220px;
+}
+.reg-main .item{
+	 margin-top: 25px;
+    height: 40px;
+    position: relative;
+}
+.reg-main .item label{
+            width: 70px;
+    height: 40px;
+    float: left;
+    font-size: 14px;
+    line-height: 40px;
+    color: #999;
+}
+.reg-main .item .item-input{
+	width: 278px;
+    height: 40px;
+    float: left;
+    position: relative;
+}
+.reg-main .item span.tip{
+    padding-left:20px;
+	float: left;
+    width: 275px;
+    margin-left: 0px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgb(172, 0, 1);
+}
+.reg-main .item input{
+	width: 278px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 10px;
+    border: 1px solid #cacaca;
+    color: #333;
+    font-size: 14px;
+    position: absolute;
+    outline: none;
+}
+.reg-main .item .wraper {
+    width: 300px;
+    height: 40px;
+    float: left;
+    position: relative;
+}
+
+.reg-main .item .wraper .item-input #imgCode {
+    width: 140px !important;
+}
+.reg-main .item .item-btn {
+    float: left;
+    margin-left: 18px;
+    position: relative;
+}
+.reg-main .item .item-btn span.code{
+    display:inline-block;
+	width: 120px;
+    height: 40px;
+    margin-right: 0;
+    cursor: pointer;
+  }
+  .reg-main .item .item-btn span.code img{
+    width:120px;
+    height:40px;
+  }
+.reg-main .item .item-btn a{
+	color: #FFF;
+    position: absolute;
+    line-height: 40px;
+    width: 120px;
+    height: 40px;
+    background: #000;
+    text-align: center;
+    font-size: 14px;
+    left: 0px;
+    top: 0;
+    z-index: 1;
+    opacity: 0;
+}
+.reg-main .item .item-btn a:hover{
+	    opacity: 1;
+}
+
+.reg-port .port-main {
+    width: 600px;
+    height: 40px;
+    float: left;
+}
+.reg-port .port-main #agreei {
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background:url(../images/register/icon.jpg)  no-repeat;
+    position: relative;
+    top: 2px;
+    background-position:-93px -339px; 
+    cursor: pointer;
+}
+
+.reg-port .port-main .secondary{
+    color: #AEAEAE;
+    font-size: 14px;
+}
+.reg-port .port-main .secondary a{
+	color:#0033CC
+}
+.port-main .policymobtips {
+    display: none;
+    position: absolute;
+    top: -5px;
+    left: 400px;
+    height: 29px;
+}
+.policymobtips p {
+    line-height: 28px;
+    background: url(../images/register/policybg.gif);
+    width: 299px;
+    height: 29px;
+    color: #A51C14;
+    padding-left: 10px;
+    margin: 0;
+}
+.reg-btn a.regMobBtn {
+    display: inline-block;
+    background: url(../images/register/icon.jpg) 0 -196px no-repeat;
+    height: 40px;
+    width: 350px;
+}
+.footer-clone{
+    background: #FFFFFF;
+}
+.footer-clone .footer .foot-banner {
+
+    border: solid 1px #ddd;
+    border-width: 1px 0;
+    padding: 17px 0;
+    background-position:0px -34px;
+}
+.footer-clone .layout {
+    width: 950px;
+    min-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-helper{
+    padding: 10px 0 20px;
+    text-align: left;
+    overflow: hidden;
+    width: 100%;
+}
+.footer-clone .footer .foot-helper ul{
+	width: 1000px;
+	margin:0 auto;
+}
+.footer-clone .footer .foot-helper ul li{
+    width: 120px;
+    padding: 5px 44px 0 0;
+    float: left;
+}

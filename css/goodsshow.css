@@ -1,0 +1,1398 @@
+.header{
+	background:#F7F7F7;
+}
+.advert{
+	width:100%;
+	height:80px;
+}
+.advert a {
+	display: block;
+	width:100%;
+	height:80px;
+	background: url(../images/goodsshow/5e00d4d3198340a9_-1x-1.jpg)no-repeat;
+	background-size: cover;
+}
+.login-search{
+	background:#fff;
+	width:100%;
+	height:75px;
+	padding:10px 0;
+}
+.login-search-box{
+	width:1200px;
+	margin:0 auto;
+}
+.login-search .loginicon{
+	float:left;
+	height: 75px;
+	background: url(../images/logo.png) no-repeat left bottom;
+	width: 430px;
+}
+.login-search .loginicon a{
+	width: 75px;
+	text-indent: -10000px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    height: 75px;
+}
+.login-search .search-box{
+	float: right;
+	width:603px;
+	overflow:hidden;
+	margin-top:5px;
+}
+.login-search .search-box .search-text{
+	margin-bottom:5px;
+}
+.login-search .search-box .search-text input{
+	float: left;
+    border: solid 3px #c7181d;
+    border-right: none;
+    padding: 0 5px;
+    width: 447px;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    font-size: 14px;
+    box-sizing: content-box;
+}
+.login-search .search-box .search-text  a{
+	display: block;
+	float:left;
+	width:71px;
+	height:36px;
+	text-indent: -10000px;
+	background: url(../images/goodsshow/headsearch_store_new.png) no-repeat ;
+}
+.login-search .search-box .search-text .btn-search{
+   background-position: -373px 0px;
+}
+.login-search .search-box .search-text .btn-searchstore{
+   background-position: -443px 0px;
+
+}
+.hotgoods{
+	line-height: 25px;
+	margin-top: 2px;
+}
+.shopinfo{
+	width:100%;
+	background: #A71B1B;
+	height:37px;
+}
+.shopinfo .shopname{
+	width:1200px;
+	height:37px;
+	margin:0 auto;
+}
+.shopinfo .shopname .shopname-left{
+	position: relative;
+    float: left;
+    z-index: 899;
+    border-left: 1px solid #a71b1b;
+    border-right: 1px solid #a71b1b;
+} 
+.shopinfo .shopname .shopname-left span.line {
+    background: #881210;
+    width: 1px;
+    height: 18px;
+    line-height: 0;
+    overflow: hidden;
+    margin-top: 10px;
+    float: left;
+}
+.shopinfo .shopname .storename {
+    float: left;
+    line-height: 36px;
+    padding: 0 10px;
+    max-width: 166px;
+    overflow: hidden;
+    height: 36px;
+    color: #fff;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+.shopinfo .shopname .storerate {
+    float: left;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    background: url(../images/goodsshow/ratestar.png) no-repeat left center;
+    position: relative;
+}
+.shopinfo .shopname .storerate i {
+    display: block;
+    height: 36px;
+    background: url(../images/goodsshow/ratestar2.png) no-repeat left center;
+}
+.shopinfo .shopname .storerate em {
+    background: url(../images/goodsshow/storettbg.png) no-repeat 25px 8px;
+}
+.shopinfo .shopname .storerate em {
+    position: absolute;
+    right: 0;
+    font-style: normal;
+    top: 0;
+    margin-left:2px;
+    padding-right: 25px;
+    color: #fff;
+}
+.storedHeadDetailInfo {
+	display: none;                      
+    border: 1px solid #9C0003;
+    border-top: none;
+    width: 288px;
+    position: absolute;
+    top: 36px;
+    left: -1px;
+    color: #656565;
+}
+.storedHeadDetailInfo .infoMain {
+    background: #fff;
+    z-index: 899;
+    padding: 15px;
+}
+.storepingfen {
+    width: 258px;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted #ABABAB;
+}
+.storepingfen h4 {
+    font-size: 14px;
+    line-height: 18px;
+    color: #323232;
+    font-family: "微软雅黑";
+    height: 24px;
+    margin-right: 10px;
+}
+dl.storeDescription {
+    float: left;
+    width: 72px;
+}
+dl.storeDescription dt {
+    line-height: 22px;
+    color: #686868;
+}
+dl.storeDescription dd {
+    font-weight: bold;
+    line-height: 22px;
+}
+.storeView {
+    width: 258px;
+    padding: 15px 0;
+}
+.storeView a.gotoStore {
+    display: block;
+    float: left;
+    background: #F8822B;
+    width: 77px;
+    height: 22px;
+    line-height: 20px;
+    text-align: center;
+    margin-top:10px;
+    border: 1px solid #D45B16;
+    color: #fff;
+}
+#addStoreFav2 {
+    background: url(../images/goodsshow/addfav2.jpg) 0 center no-repeat;
+    line-height: 20px;
+    cursor: pointer;
+    float: left;
+    width: 52px;
+    margin-left: 20px;
+    padding-left: 20px;
+    color: #666;
+    margin-top:10px;
+    margin-bottom:20px;
+
+}
+.storehead-baseinfo{
+	display: inline;
+    float: right;
+    line-height: 36px;
+    height: 36px;
+    padding: 0;
+    color: #fff;
+    position: relative;
+    z-index: 889;
+    padding-right: 165px;
+
+}
+.storehead-baseinfo .store2d{
+	background: url(../images/goodsshow/storettbg.png) 0 -102px no-repeat;
+    float: left;
+    padding-left: 30px;
+    height: 34px;
+    line-height: 34px;
+    color: #fcc;
+}
+.store2d {
+	position: relative;
+}
+.store2dB{
+	position: absolute;
+	top:26px;
+	right:-50px;
+	display: none;
+}
+.store2dB s {
+    width: 15px;
+    height: 7px;
+    display: block;
+    overflow: hidden;
+    background: url(../images/goodsshow/storettbg.png) -70px -60px no-repeat;
+    margin-left: 28px;
+}
+.store2d .store2dB .store2dBox {
+    width: 100px;
+    height: 123px;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #b3b3b3;
+    border-top: 0;
+}
+.store2dB .store2dBox  .store2dImg {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+..store2dB .store2dBox p {
+    color: #C52321;
+    text-align: center;
+    float: left;
+    width: 100px;
+    height: 15px;
+    margin-top: 8px;
+    overflow: hidden;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.head-shopcart {
+    margin: 0;
+    background: url(../images/goodsshow/bg_shopcart.png) no-repeat right top;
+    height: 41px;
+    color: #fff;
+    width: 153px;
+    display: inline;
+    z-index: 889;
+    position: absolute;
+    right: 0;
+    top: -6px;
+    border:0;
+}
+.head-shopcart .shopcart-sum {
+    height: 37px;
+    line-height: 37px;
+    padding-left: 41px;
+    padding-top: 4px;
+}
+.head-shopcart .shopcart-num {
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    height: 30px;
+    width: 58px;
+    text-align: center;
+    cursor: pointer;
+}
+.head-shopcart .shopcart-list {
+    position: absolute;
+    display: none;
+    width: 280px;
+    padding: 0;
+   top: 42px;
+    right: 4px;
+    background-color: #fff;
+    border: none;
+    color: #666;
+    z-index: 1;
+}
+.head-shopcart .shopcart-list li.list-empty {
+    text-align: center;
+    padding: 8px;
+    margin: 0;
+    line-height: 16px;
+    color: #333;
+    border-bottom: none;
+    height: auto;
+}
+.wrap{
+	width:100%;
+	background: #FFFFFF;
+}
+.wrap .goodinfo{
+	width:1200px;
+	margin:0 auto;
+	background: #FFF;
+	padding-top:10px;
+}
+.wrap .innerwrap{
+	width:1198px;
+	margin:0 auto;
+	background: #FFF;
+	border:1px solid #F8F8F8;
+	margin-top:10px;
+	overflow:hidden;
+}
+.goodinfo a{
+	color: #06c;
+	padding-right:15px;
+	margin-right:3px;
+	background: url(../images/list/search_icon_newlast.png) no-repeat scroll right 4px transparent;
+}
+.goodinfo a:last-child{
+	background: none;
+	color:#666;
+}
+.innerwrap .innerwrap-left{
+	float:left;
+	width: 398px;
+    margin: 20px 20px 0;
+    z-index: 2;
+}
+.innerwrap .innerwrap-bigImg{
+    position: relative;
+    width: 398px;
+    height: 398px;
+    margin-bottom: 15px;
+    overflow: hidden;
+   background: url(../images/goodsshow/loading.gif) center center no-repeat;
+}
+.innerwrap .innerwrap-bigImg img{
+    display: none;
+    width:398px;
+    height:398px;
+}
+.innerwrap .innerwrap-bigImg img.show,.innerwrap .len img.show{
+    display: block;
+}
+.innerwrap .innerwrap-bigImg .hover{
+    position: absolute;
+    width:200px;
+    height:200px;
+    background: rgba(0,0,0,0);
+    left:0;
+    top:0;
+    display: none;
+}
+.innerwrap .innerwrap-smallImg{
+	width:400px;
+	padding-bottom:20px;
+	height:64px;
+}
+.innerwrap .innerwrap-smallImg li{
+	width: 76px;
+    text-align: center;
+    font-size: 0;
+    position: relative;
+    float: left;
+}
+.innerwrap .innerwrap-smallImg li img{
+	width: 56px;
+    height: 56px;
+    padding: 2px;
+    border: 1px solid #e7e7e7;
+}
+.innerwrap .innerwrap-smallImg .active img{
+    border:1px solid #CF2025 !important;
+}
+.innerwrap .len{
+	width: 398px;
+    height: 398px;
+    overflow: hidden;
+    position: absolute;
+    left: 418px;
+    top: 267px;
+    display: none;
+    z-index: 999999;
+}
+.innerwrap .len img{
+    display: none;
+	width:800px;
+	height:800px;
+	position: absolute;
+}
+.innerwrap-center{
+	float:left;
+	width: 573px;
+    border-right: 1px solid #e9e9e9;
+    padding-right:20px;
+}
+.innerwrap-center h1{
+	font-size: 16px;
+    color: #333;
+    overflow: hidden;
+    line-height: 22px;
+    padding-top: 18px;
+    font-family: 'Microsoft YaHei';
+}
+.pi_detail {
+    margin-top: 10px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+h2.subtitle {
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #666;
+    padding-top: 2px;
+    padding-left: 0;
+}
+.pi_detail dl {
+    clear: both;
+    overflow:hidden;
+}
+.pi_detail dl.proDetail_itemId {
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    padding: 10px 0;
+    margin: 0;
+}
+.pi_detail dl dt{
+	width:58px;
+	float:left;
+    padding-top:8px;
+}
+.pi_detail dl dd{
+	float:left;
+    padding-top:6px;
+}
+.pi_detail dl.productPrice .price_zhekou {
+    background: url(../images/goodsshow/price_zhekou.jpg) 0 17px no-repeat;
+    color: #fff;
+    height: 30px;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-left: 6px;
+}
+.pi_detail dl.productPrice dd {
+    height: 30px;
+    line-height: 20px;
+    padding-top: 14px;
+}
+.pi_detail dl.productPrice dd span {
+    color: #c52e15;
+    font-size: 28px;
+}
+.pi_detail dl.productPrice dd strong {
+    color: #c52e15;
+    font-family: "微软雅黑";
+    font-size: 30px;
+}
+.pi_detail dl.productPrice .price_zhekou_old {
+    font-weight: 400;
+    color: #999;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.pi_detail dl.productPrice dd del {
+    font-size: 15px;
+    padding-left: 8px;
+    color:#999;
+}
+.fArea{
+	float:left;
+}
+.ule_address{
+	float:left;
+	width:120px;
+	height:20px;
+	margin: 0 20px 0 8px;
+	overflow:hidden;
+	border:1px solid #E9E9E9;
+} 
+.icon_area{
+	float:right;
+	width:19px;
+	height:18px;
+	background: url(../images/goodsshow/zjl_icon_area.png)no-repeat;
+	background-position: -24px 8px;
+}
+.productscuxiao span{
+    display: inline-block;
+    float:left;
+}
+ .productszhekou{
+    padding:1px 4px;
+    background: #C52E15;
+    color:#Fff;
+}
+.proDetail .pi_detail dl.productsservice{
+    height:20px;
+    margin-top:12px !important;
+}
+.shopname{
+    color:#C52E15;
+}
+.productscolor{
+       padding: 5px 0 8px; 
+}
+.productscolor dt{
+    width: 58px;
+    line-height: 30px;
+}
+.productscolor ul li{
+   float: left;
+    padding: 0 10px 7px 0;
+}
+.productscolor ul li a,.productsguige ul li a{
+    margin: -1px;
+    border: 2px solid #A71F24;
+    color: #666;
+    display: block;
+    float: left;
+    text-align: center;
+    text-indent: 0;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 8px;
+    white-space: nowrap;
+    position: relative;
+
+}
+.productscolor ul li a img{
+   height: 40px;
+    width: 40px; 
+    line-height: 40px;
+}
+dl ul li a sub{
+    position: absolute;
+    right: -1px;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(../images/goodsshow/selected.png) no-repeat;
+}
+.productsguige{
+    padding: 0 10px 7px 0;
+}
+.productsguige ul li a{
+    padding:0 8px;
+    height:26px;
+    line-height: 26px;
+}
+.attrQuantity dd{
+    width: 510px;
+}
+.attrQuantity dd .reduceQuantity{
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    border: solid 1px #999;
+    text-align: center;
+    line-height: 24px;
+    background: #F1F1F1;
+    font-family: Arial;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+.attrQuantity dd .addQuantity{
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    border: solid 1px #999;
+    text-align: center;
+    line-height: 24px;
+    background: #fff;
+    font-family: Arial;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+.attrQuantity dd  .pCount{
+       width: 48px;
+    display: block;
+    float: left;
+    font-family: Arial;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #999;
+    font-size: 14px; 
+    border-right:0px;
+    border-left:0px;
+}
+.proDetail{
+    padding-bottom:20px;
+}
+.minNumberMsg {
+    margin-left: 20px;
+    line-height: 26px;
+}
+dl.selectedtext{
+     margin-top: 5px;
+}
+dl.selectedtext dt{
+    width: 50px;
+    line-height: 30px;
+}
+dl.selectedtext dd{
+    color: #B30808;
+    font-weight: 800;
+    float: left;
+    line-height: 30px;
+}
+.colorCubetext ,.attrCubetext,.pCounttext{
+    margin-left:0px;
+    color:#B30808;
+    font-weight: 800;
+}
+.proDetail_purchase{
+    border-top: 1px dotted #ccc;
+    padding: 13px 0 0 58px;
+    overflow: hidden;
+}
+.fenqi950 {
+    padding-bottom: 20px;
+}
+.btn_exchange,.btn_add2cart,.add2fav02  {
+    background: url(../images/goodsshow/zjl_icon_002.png) no-repeat;
+    height: 40px;
+    text-indent: -999em;
+    overflow: hidden; 
+    float: left;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btn_exchange {
+    background-position:0 0;
+    width: 128px;
+    display: block;
+}
+.btn_add2cart {
+    background-position:-129px 0;
+    width: 148px;
+    display: block;
+}
+.add2fav02 {
+    background-position:-278px 0;
+    width: 76px;
+    display: inline;
+}
+.proDetail_pay {
+    border-bottom: 1px dotted #ccc;
+    padding: 9px 0 12px;
+    margin-top: 21px;
+    color: #999;
+    overflow:hidden;
+}
+.fr {
+    float: right !important;
+}
+.c-red {
+    color: #B20707;
+}
+.proDetail_pay .click_more_pay {
+    float:right;
+    background: url(../images/goodsshow/sprite.gif) 3px -38px no-repeat;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+}
+.jfTips {
+    background: url(../images/goodsshow/jfts.png) no-repeat 0 0;
+    width: 201px;
+    height: 53px;
+    color: #c52e15;
+    line-height: 53px;
+    text-align: center;
+    position: absolute;
+    left: -92px;
+    top: 14px;
+    display: none;
+}
+.posr {
+    position: relative;
+    float: left !important;
+}
+.fl {
+    float: left !important;
+}
+.proDetail_pay .more-pay {
+    position: absolute;
+    border: 1px solid #fff;
+    width: 202px;
+    float: left;
+    left: 62px;
+    top: -7px;
+    padding: 6px;
+    background: #fff;
+    height: 16px;
+    overflow: hidden;
+}
+.proDetail_pay .payments {
+    width: 187px;
+    float: left;
+}
+.proDetail_pay .payments span {
+    padding: 0 10px 0 21px;
+    white-space: nowrap;
+    float: left;
+    width: 62px;
+    height: 22px;
+    overflow: hidden;
+    background-image: url(../images/goodsshow/uleIco_16x16.jpg);
+    background-repeat: no-repeat;
+}
+.proDetail_pay .pay_uleCard {
+    background-position: 0 -1813px;
+}
+.proDetail_pay .pay_post {
+    background-position: 0 -2294px;
+}
+.goods_info_bottom_l {
+    float: left;
+    width: 470px;
+    margin-top: 10px;
+}
+.emsdate {
+    font-weight: normal;
+    color: #b4b4b4;
+    line-height: 26px;
+    height: 26px;
+    padding-top: 8px;
+}
+.seven-day {
+    height: 26px;
+    line-height: 26px;
+    color: #b4b4b4;
+    font-weight: normal;
+}
+.seven-day span {
+    padding: 2px 0 2px 20px;
+    color: #666;
+    background: url(../images/goodsshow/seven-day.png) no-repeat;
+}
+.goods_info_bottom_r {
+    float: right;
+    width: 60px;
+}
+.goods_info_bottom_r a {
+    color: #666;
+    background: url(../images/goodsshow/ico_report.gif);
+    width: 60px;
+    height: 16px;
+    display: block;
+    line-height: 16px;
+    margin-top: 8px;
+    text-indent: 200px;
+    overflow: hidden;
+}
+.innerwrap-right{
+    float: left;
+    width: 126px;
+    padding: 0 19px;
+}
+.innerwrap-right h3 {
+    height: 34px;
+    line-height: 34px;
+    margin-top: 10px;
+    border-bottom: 1px solid #e9e9e9;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #333;
+}
+.innerwrap-right .goodsUl {
+    width: 100%;
+    height: 400px;
+}
+.goodsUl ul {
+    width: 100%;
+    height: 400px;
+}
+
+.goodsUl ul li {
+    width: 126px;
+    height: 126px;
+    display: block;
+    position: relative;
+    margin-top: 10px;
+}
+
+.goodsUl ul img {
+    width: 126px;
+    height: 126px;
+    display: block;
+}
+.goodsUl ul .price {
+    position: absolute;
+    top: 104px;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    color: #333;
+    padding: 0 8px;
+    height: 22px;
+    line-height: 22px;
+    display: block;
+}
+.innerwrap-right .page_box{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.innerwrap-right .page_box a {
+    background: url(../images/goodsshow/img_page.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.innerwrap-right  .page_box span {
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: top;
+}
+.innerwrap-right .page_box .p_r {
+    background-position: 0 -25px;
+}
+.bottomWrap {
+     width: 1198px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid #F8F8F8;
+    padding-top:20px;
+    overflow: hidden;
+}
+.bottomWrap .leftwrap{
+    width: 200px;
+    float: left;
+}
+#storeGradePT {
+    border: 1px solid #e9e9e9;
+    background: #fff;
+}
+#storeGradePT h3 {
+    background: #f9f9f9;
+    border-bottom: 1px solid #e9e9e9;
+    line-height: 34px;
+    color: #333;
+    padding-left: 19px;
+    margin: 0;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+#storeGradePT .storeCon {
+    padding: 0 19px;
+}
+.storeInfo {
+    padding: 12px 0;
+}
+.storeInfo h4 {
+    margin: 0;
+    line-height: 16px;
+    font-size: 12px;
+    color: #666;
+    font-weight: 400;
+}
+.storeInfo h4 a {
+    height: 16px;
+    line-height: 16px;
+}
+.storeClass h4 {
+    line-height: 24px;
+    margin: 0;
+    padding: 4px 0;
+    font-size: 12px;
+    border-top: 1px solid #e9e9e9;
+}
+.storeClass h4 strong {
+    color: #c52e15;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+.storeClass ul {
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding: 4px 0;
+}
+.storeClass ul li {
+    float:none;
+    line-height: 24px;
+    color: #666;
+}
+.viewStore {
+    padding: 11px 0;
+    overflow:hidden;
+}
+.viewStore a.gotoStore {
+    display: block;
+    float: left;
+    background: #F8822B;
+    width: 78px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    border: 1px solid #D45B16;
+    color: #fff;
+    margin-right: 14px;
+}
+#addStoreFav {
+    display: block;
+    float: left;
+    color: #06c;
+    cursor: pointer;
+    line-height: 23px;
+    white-space: nowrap;
+}
+.storeCategory {
+    border: 1px solid #e9e9e9;
+    margin: 15px 0;
+}
+h3.sideModuleTitle {
+    background: #f9f9f9;
+    border-bottom: 1px solid #e9e9e9;
+    line-height: 34px;
+    color: #333;
+    padding-left: 19px;
+    margin: 0;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+#sidemenu {
+    margin: 5px 19px;
+}
+#sidemenu li {
+    float:none;
+    border-bottom: 1px dotted #ccc;
+    line-height: 30px;
+    overflow: hidden;
+    padding-left: 18px;
+    background-image: url(../images/goodsshow/bg-category.gif);
+    background-repeat: no-repeat;
+    background-position: 0 11px;
+}
+#sidemenu li.select {
+    background-position: 0 -19px;
+}
+#sidemenu li ul {
+    margin: 0 0 0 -22px;
+}
+#sidemenu li ul li {
+    background: url(../images/goodsshow/libg.gif) 23px center no-repeat;
+    padding-left: 32px;
+    border-bottom: none;
+    line-height: 24px;
+}
+#sidemenu li ul li.selected {
+    font-weight: 700;
+    background-color: #eee;
+}
+ #viewedPros {
+    margin-bottom: 15px;
+    border: 1px solid #e9e9e9;
+    width: 198px;
+    overflow: hidden;
+}
+h3.sideModuleTitle {
+    background: #f9f9f9;
+    border-bottom: 1px solid #e9e9e9;
+    line-height: 34px;
+    color: #333;
+    padding-left: 19px;
+    margin: 0;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+.simpleThumb {
+    padding: 0 19px;
+    margin-top: -1px;
+}
+.simpleThumb li {
+    width: 100%;
+    height: 76px;
+    padding-top: 16px;
+    overflow: hidden;
+    border-top: 1px dotted #ccc;
+}
+.simpleThumb li:first-child {
+    border-top: 0;
+}
+.simpleThumb li a img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.simpleThumb li a p {
+    float: left;
+    width: 90px;
+}
+.simpleThumb li a p span {
+    display: block;
+}
+.simpleThumb li a p .title {
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.simpleThumb li a p .price {
+    margin-top: 6px;
+    color: #c52e15;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+}
+ .mainwrap {
+    width: 980px;
+    float:right;
+    overflow:hidden;
+    padding-bottom:20px;
+}
+#hotRec {
+    width: 978px;
+    border: 1px solid #E3E3E3;
+    margin: 0 auto 12px;
+    padding-bottom: 10px;
+}
+.otherBuyTab {
+    background: #f9f9f9;
+    border-bottom: 1px solid #e9e9e9;
+    margin-bottom: 20px;
+    height: 35px;
+}
+.otherBuyTab .iItem {
+    padding: 0 66px 0 66px;
+    cursor: pointer;
+    height: 34px;
+    line-height: 34px;
+    color: #333;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    float: left;
+}
+.otherBuyTab .iItem.curr {
+    border-bottom: 2px solid #c6181c;
+}
+.otherBuyTab .iItem a {
+    color: #333;
+    text-decoration: none;
+}
+.otherBuyCon .iItem ul {
+    height: 217px;
+    overflow: hidden;
+}
+.otherBuyCon .iItem ul li {
+    padding-top: 10px;
+    width: 130px;
+    float: left;
+    margin-left: 28px;
+    display: inline;
+    color: #888;
+}
+.otherBuyCon .iItem ul li img{
+    width:130px;
+    height:130px;
+}
+.otherBuyCon .iItem a.pname {
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    color: #888;
+    margin-top: 5px;
+}
+.otherBuyCon .iItem span.r-price {
+    display: block;
+    overflow:hidden;
+}
+.otherBuyCon .iItem .ulePrice {
+    color: #c52e15;
+    margin-right: 10px;
+
+}
+.otherBuyCon .iItem .maxPrice, .otherBuyCon .iItem .ulePrice {
+    display: block;
+    font-family: arial;
+    float: left;
+    margin-top: 3px;
+    width:58px;
+     height:24px;
+}
+.otherBuyCon .iItem .maxPrice {
+    color: #999;
+}
+del {
+    color: #999;
+    text-decoration: line-through;
+}
+.otherBuyCon .iItem .addCart {
+    background-color: #fafafa;
+    border: 1px solid #bdbdbd;
+    width: 93px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+    color: #666;
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+}
+.item_ad {
+    margin: 0 auto 15px;
+}
+.item_ad img {
+    width: 980px;
+    height: 170px;
+}
+.tabHolder_Menu_div {
+        overflow: hidden;
+    border-bottom: 2px solid #b20707;
+    background: #f2f2f2;
+}
+.tabHolder_Menu {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.tabHolder_Menu li {
+    float: left;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: '微软雅黑';
+}
+.tabHolder_Menu li a {
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #757575;
+    font-weight: 700;
+    border-left: 1px solid #cfcfcf;
+}
+.tabHolder_Menu li.selected {
+    background: #B30808;
+}
+.tabHolder_Menu li.selected a {
+    background-position: left top;
+    font-weight: 700;
+    color: #fff;
+    border-left: 0;
+}
+.tabHolder_Menu_div .tabCar {
+    width: 148px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(246, 115, 11);
+    text-align: center;
+    margin-top: -40px;
+    float: right;
+    margin-right:10%;
+}
+.tabHolder_Menu_div .tabCar a {
+    color: #fff;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    padding-left: 22px;
+    text-decoration: none;
+    background: url(../images/goodsshow/tabCar.jpg) no-repeat left 4px;
+}
+.goods_property {
+    border: 1px solid #e4e4e4;
+    margin-top: 10px;
+    background-color: #fafafa;
+    padding: 10px 20px;
+}
+.goods_property h3 {
+    border-bottom: 1px dashed #aaa;
+    padding-bottom: 10px;
+}
+.goods_property ul {
+    margin-top: 10px;
+    overflow:hidden;
+}
+.goods_property ul li {
+    float: left;
+    width: 230px;
+    padding-bottom: 0;
+    margin-top:2px;
+
+}
+
+.goods_property ul li.widthLest {
+    width: 260px;
+}
+.pledge {
+    margin-top:30px;
+    background-color: rgb(255, 252, 235);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(254, 229, 199);
+    border-image: initial;
+    padding: 12px 30px 16px;
+}
+.pledge h3 {
+    color: rgb(197, 46, 21);
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    font-family: 微软雅黑;
+    overflow:hidden;
+}
+.store_advisory_div{
+    margin-top: 30px;
+}
+.pledge p {
+    color: rgb(102, 102, 102);
+    line-height: 22px;
+}
+#store_advisory_div{
+    margin-top:30px;
+}
+h2.comment_head {
+    display: block;
+    height: 29px;
+    line-height: 29px;
+    color: rgb(51, 51, 51);
+    font-family: 微软雅黑;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+h2.comment_head span {
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    width:64px;
+}
+#store_advisory_div .right {
+    float: right;
+}
+#store_advisory_div a.vibtn {
+    float: right;
+    display: inline;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 75px;
+    height: 22px;
+    line-height: 22px;
+    background: url(../images/goodsshow/tip_btn.png) left -82px no-repeat;
+}
+.uleinfo{
+    border:1px solid #E9E9E9;
+    margin-top:30px;
+}
+.uleinfo  h3 {
+    color: rgb(51, 51, 51);
+    background-color: rgb(249, 249, 249);
+    font-size: 14px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding: 0px 8px;
+    height: 30px;
+    line-height: 30px;
+    font-family: 微软雅黑;
+}
+.othersbuy_body {
+    height: 215px;
+    position: relative;
+    overflow: hidden;
+    padding: 30px 48px 0px;
+}
+.othersbuy_body .arr_l, .othersbuy_body .arr_r {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+    top: 125px;
+    background: url(../images/goodsshow/icon-arrow.gif) no-repeat;
+}
+.othersbuy_body .arr_l {
+    left: 10px;
+}
+.othersbuy_body .arr_r {
+    right: 10px;
+    background-position: 0px -40px;
+}
+.bottom_slide {
+    position: relative;
+    width: 100%;
+    height: 215px;
+    margin: 0px;
+    padding: 0px;
+}
+.bottom_slide li {
+    display: inline;
+}
+.bottom_slide li ul {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.bottom_slide li ul {
+    padding-top: 25px;
+}
+.othersbuy_body .bottom_slide li ul li {
+    width: 158px;
+    overflow: hidden;
+    padding: 0px 8px;
+}
+.bottom_slide li ul a {
+    display: block;
+    cursor: pointer;
+    width: 130px;
+    height: 160px;
+    position: relative;
+}
+.bottom_slide li ul li img {
+    width: 160px;
+    height: 160px;
+}
+.othersbuy_body ul li ul li span.itemname {
+    width: 150px;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    color: rgb(102, 102, 102);
+    position: absolute;
+    top: 128px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.701961);
+    padding: 0px 5px;
+    overflow: hidden;
+}
+.othersbuy_body ul li ul li .price .min, #uleinfo .othersbuy ul li ul li .price del {
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    font-family: 微软雅黑;
+}
+.othersbuy_body ul li ul li .price {
+    color: rgb(179, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+}
+.othersbuy_body ul li ul li .price .min {
+    color: rgb(197, 46, 21);
+    margin-right: 10px;
+}
+.othersbuy_body ul li ul li .price del {
+    margin-top: 2px;
+}/**/

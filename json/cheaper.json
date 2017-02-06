@@ -1,0 +1,31 @@
+{
+	"floors":[
+		{	
+			"name":"cheaper-product",
+			"products" : [
+					{"imgurl":"../images/ule-img/93a7a16843cccee2_-1x-1.jpg","descript":"包邮 泊泉雅香氛魅惑沐浴露","price":"13.90"},
+					{"imgurl":"../images/ule-img/d34e59b13bdaaa23_-1x-1.jpg","descript":"爱尚咪咪虾条18g*40包 薯片","price":"15.90"},
+					{"imgurl":"../images/ule-img/4556b96711cfd92c_-1x-1.jpg ","descript":"乐视(Le)乐Max2(X820)","price":"1468.00"},
+					{"imgurl":"../images/ule-img/6deec70c2ae64811_-1x-1.jpg ","descript":"ACA/北美电器 AHM-P125A手","price":"49.00"},
+					{"imgurl":"../images/ule-img/15e6d43cbb0fa249_-1x-1.jpg ","descript":"包邮 纳爱斯 儿童牙膏 正品纳爱斯","price":"9.90"}
+				]
+		},
+		{	
+			"name":"new-product",
+			"products" : [
+					{"imgurl":"../images/ule-img/a289a4e0b4dbfad9_-1x-1.jpg","descript":"韩国A5 商场同款 冬季新品女","price":"98.00"},
+					{"imgurl":"../images/ule-img/674f00ad07367223_-1x-1.jpg ","descript":"粗跟短靴马丁靴秋冬新款单排","price":"134.00"},
+					{"imgurl":"../images/ule-img/fa7b8a683fb2ef19_-1x-1.jpg ","descript":"韩国原装DODO多多3W CLINIC","price":"18.00"},
+					{"imgurl":"../images/ule-img/49c9bdd7013a5c2a_-1x-1.jpg ","descript":"楼恒泰 鸭腿/鸭翅/鸭掌组合体","price":"45.00"},
+					{"imgurl":"../images/ule-img/fb40a6913f05c0fb_-1x-1.jpg ","descript":"东北 美晶五长粒香大米10斤","price":"42"}
+				]
+		}
+	]
+
+
+				
+				
+		
+		
+	
+}

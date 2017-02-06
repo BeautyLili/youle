@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/order.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="headername">
+			<div class="header"></div>
+	</div>
+	<!-- 确定订订单显示流程 -->
+	<div class="logo">
+		<div class="logoicon">
+			<a href="#">
+			</a>
+		</div>
+		<div class="head-cart step0">
+			<p class="step_img"></p>
+		</div>
+	</div>
+	<!-- 填写订单信息 -->
+	<div class="wrapperbox">
+		<div id="wraper">
+			<div id="address_tab">请认真填写并核对以下信息：</div>
+			<div id="address_wrap" class="wrap1 clear">
+				<div class="info">
+					<h2 class="order_title2">
+						收货人信息 
+						<a href="#" target="_blank">[管理收货人信息]</a>
+					</h2>
+					<div class="addr-wrap  id="address_info">
+					<div class="list clearfix ule db" id="uleAddr">
+						<h3>
+							<i></i><span>全部收货地址</span>
+						</h3>
+					</div>
+
+					<div class="btn-more" id="btnMore">
+						<em class="hd"></em>
+						<em class="bd">显示更多</em>
+					</div>
+					<div class="btn-add" id="btnAdd">
+						<em class="hd"></em>
+						<em class="bd">增加新地址</em>
+					</div>
+				</div>
+				<!-- 商品清单，返回购物车 -->
+				<div class="itemsInfo">
+					<h2 class="itemsInfo_title">
+						商品清单
+   						<a href="//cart.ule.com/viewPostCart.do?cartType=0">[返回购物车]</a>
+										
+					</h2>
+					<ul class="itemsInfo_th clear">
+						<li class="first">商品详情</li>
+						<li class="second">单价</li>
+						<li class="third">商品数量</li>
+						<li class="fourth">价格合计</li>
+						<li class="fifth">运费</li>
+					</ul>
+					<div class="order_shop">
+						<div class="storeInfo">
+							<a href="#" class="storeName">九洲科瑞数码专营店</a>
+						</div>
+						<div class="itemsDetail clear" merchantid="800111532">
+							<ul class="itemList clear" id="itemList_10635">
+								<li>
+ 									<a href="#"> 
+ 										<img src="../images/order/034af29a99ad8726_p800x800_m.jpg" width="63" height="63" alt="">
+									</a>
+									<div class="note">
+										<h4>
+											<a href="#">戴尔（DELL）Ins15-1525 15.6英寸 微边框笔记本电脑（NVIDIA GeForce </a>
+										</h4>
+										<div class="info c999 clear">
+											<em>颜色：<span class="c666">银色</span></em>
+											<em>规格：<span class="c666">戴尔（DELL）Ins15-1525</span></em>
+										</div>							
+										<div class="storeService">					
+											<span class="pay_uleCard" title="邮乐卡支付" ulecardpayflag="1"></span>	
+											<span class="getPoints" title="赠送积分"></span>				
+											<span class="seven-day" title="支持7天无理由退货"></span>支持7天无理由退货
+										</div>						
+									</div>						
+									<div class="unitprice second">
+															￥4988.0					
+									</div>				
+									<div class="number third">
+															1
+									</div>						
+									<div class="amount">
+										<em class="rmb">￥4988.00</em>
+															
+									</div>											
+								</li>						
+
+							</ul>						
+							<div class="freight fifth freight_10635">￥0.00</div>						
+						</div>	
+						<!-- 留言开始					 -->
+						<div class="leave_message clear">
+							 <div class="lm_wrap">
+								<label>给卖家留言 ： </label>
+								<div class="lm_content clear">
+									<input placeholder="选填，所填内容仅限对本次交易的说明" type="text" class="input-text" name="buyerNote3">
+									<div class="clear">
+										<textarea class="lm_area"></textarea>
+										<i></i>
+									</div>
+									<p class="lm_number">
+										您还可以输入 <b>200</b> 个字
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- 留言结束 -->
+						<div class="storeTotal">
+							<div class="storeDetail">
+								<div class="jifen">
+									<label>使用邮乐积分　：</label>
+									 <input storeid="10635" name="jifen" maxlength="30" type="text" class="input-text">
+									（可使用积分
+									<span class="purple"> 0</span> 分）
+									<span class="error"></span>
+								</div>
+								<div class="youhuijuan">
+									<label>店铺优惠券　　：</label>
+									 <input storeid="10635" name="youhuijuan" maxlength="30" type="text" placeholder="请填入优惠劵号">
+								</div>
+							</div>
+							<div class="storeCount">
+								<dl>
+									<dt>商品价格：</dt>
+									<dd>
+										￥<span class="c_orange" id="itemsTotalCount_10635"> 4988.00
+										</span>
+									</dd>
+								</dl>
+								<dl>
+									<dt>运费价格：</dt>
+									<dd>
+										￥<span id="freight_10635">0.00</span>
+									</dd>
+								</dl>
+								<dl>
+									<dt>促销抵扣：</dt>
+									<dd>
+										- ￥<span id="cuxiao_10635">0.00</span>
+									</dd>
+								</dl>
+								<dl>
+									<dt>店铺合计：</dt>
+									<dd class="countTotal">
+										￥<span class="c_orange" id="countTotal_10635">4988.00</span>
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<!-- 发票 -->
+						<div class="addressbutton">
+							<div class="moreinfo">
+								<input type="checkbox"/>
+								<label>我要发票</label>
+							</div>
+							<div class="orderTotal">
+								<div class="amout_total">
+									<strong class="totalTitle">应付总金额（含运费）：￥</strong><span class="c_orange">4988.00</span>
+								</div>
+							</div>
+						</div>
+						<!-- 提交 -->
+						<div style="overflow:hidden">
+							<div class="handle">
+	                   			 <span class="btn1">
+	                    			<input type="button" id="btnSubmit" class="prohibit" disabled="disabled" value="提交订单">
+	                    		</span>
+												
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+
+	</div>
+	
+	<!-- 尾巴脚部 -->
+	<div class="footer-clone">
+
+	</div>
+
+
+
+<script type="text/javascript" src="../lib/jQuery/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+		$(".header").load("index.html .header >.header-top");
+		$(".footer-clone").load("index.html .footer");
+</script>	
+</body>
+</html>
